@@ -3,6 +3,7 @@ package com.CarLoan;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class PracticeThree {
@@ -22,14 +23,17 @@ public class PracticeThree {
 		System.out.println("   mobileLoginCarLoan");
 	}
 
-	@Test
+	@Test(timeOut = 4000)
 	public void mobileNavigationCarLoan() {
 		System.out.println("   mobileNavigationCarLoan");
 	}
 
+	@Parameters(value={"URL","Type"})
 	@Test
-	public void mobileLogoutCarLoan() {
+	public void mobileLogoutCarLoan(String url,String type) {
 		System.out.println("   mobileLogoutCarLoan");
+		System.out.println(url);
+		System.out.println(type);
 	}
 
 	@Test(dependsOnMethods ={"mobileLoginCarLoan"})

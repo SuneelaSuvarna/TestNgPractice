@@ -1,5 +1,6 @@
 package com.HomeLoan;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class PracticeFour {
@@ -9,10 +10,15 @@ public class PracticeFour {
 	{
 		System.out.println("   webLoginHomeLoan");
 	}
+	
+	@Parameters(value={"URL","Type"})
+	
 	@Test
-	public void mobileLoginHomeLoan()
+	public void mobileLoginHomeLoan(String url,String type)
 	{
 		System.out.println("   mobileLoginHomeLoan");
+		System.out.println(url);
+		System.out.println(type);
 	}
 	@Test
 	public void apiLoginHomeLoan()
