@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.439" tests="17" errors="0" skipped="1" failures="2">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Volumes/Development/Automation/TestNgPractice/target/test-classes:/Volumes/Development/Automation/TestNgPractice/target/classes:/Users/suneela/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/suneela/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/suneela/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Volumes/Development/Automation/TestNgPractice/target/surefire/surefirebooter3803704646715440071.jar /Volumes/Development/Automation/TestNgPractice/target/surefire 2021-06-13T22-20-37_567-jvmRun1 surefire1869903122866491238tmp surefire_01675442019520090583tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Volumes/Development/Automation/TestNgPractice/target/test-classes:/Volumes/Development/Automation/TestNgPractice/target/classes:/Users/suneela/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar:/Users/suneela/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/suneela/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/suneela"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"/>
+    <property name="basedir" value="/Volumes/Development/Automation/TestNgPractice"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Volumes/Development/Automation/TestNgPractice/target/surefire/surefirebooter3803704646715440071.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/resources.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/rt.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/sunrsasign.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jsse.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jce.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/charsets.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jfr.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="suneela"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/suneela/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/dj/l6lrx57x7ml9zfbmjky5f9lr0000gn/T/"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="/Volumes/Development/Automation/TestNgPractice"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/suneela/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="/Users/suneela/Library/Java/Extensions:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Demo" classname="com.PersonalLoan.PracticeOne" time="0.001"/>
+  <testcase name="secondTest" classname="com.PersonalLoan.PracticeOne" time="0"/>
+  <testcase name="smokeTestPLoan1" classname="com.PersonalLoan.PracticeOne" time="0"/>
+  <testcase name="pLoan" classname="com.PersonalLoan.PracticeTwo" time="0"/>
+  <testcase name="smokeTestPLoan2" classname="com.PersonalLoan.PracticeTwo" time="0"/>
+  <testcase name="apiLoginHomeLoan" classname="com.HomeLoan.PracticeFour" time="0"/>
+  <testcase name="mobileLoginHomeLoan" classname="com.HomeLoan.PracticeFour" time="0.001"/>
+  <testcase name="smokeTestHomeLoan" classname="com.HomeLoan.PracticeFour" time="0"/>
+  <testcase name="mobileLoginCarLoan" classname="com.CarLoan.PracticeThree" time="0.007">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.CarLoan.PracticeThree.mobileLoginCarLoan(PracticeThree.java:27)
+</failure>
+    <system-out><![CDATA[
+T E S T  L I S T E N E R : T E S T  IS  S U C E S S : smokeTestHomeLoan
+
+ After Test :PersonalLoan:PracticeOne:afterTestPLoan
+ beforeClassTest:CarLoan:PracticeThree
+  beforeMethodCarLoan executed before car loan test methods
+   mobileLoginCarLoan
+]]></system-out>
+  </testcase>
+  <testcase name="mobileLogoutCarLoan" classname="com.CarLoan.PracticeThree" time="0"/>
+  <testcase name="mobileNavigationCarLoan" classname="com.CarLoan.PracticeThree" time="0.002"/>
+  <testcase name="smokeTestCarLoan" classname="com.CarLoan.PracticeThree" time="0">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.CarLoan.PracticeThree.smokeTestCarLoan(PracticeThree.java:62)
+</failure>
+    <system-out><![CDATA[
+T E S T  L I S T E N E R : T E S T  IS  S U C E S S : mobileNavigationCarLoan
+
+  afterMethodCarLoan excuted after every car loan test methods
+  beforeMethodCarLoan executed before car loan test methods
+ smokeTestCarLoan :CarLoan:PracticeThree:SmokeGroup
+]]></system-out>
+  </testcase>
+  <testcase name="CarLoanDataProviderTest" classname="com.CarLoan.PracticeThree" time="0"/>
+  <testcase name="CarLoanDataProviderTest" classname="com.CarLoan.PracticeThree" time="0"/>
+  <testcase name="CarLoanDataProviderTest" classname="com.CarLoan.PracticeThree" time="0"/>
+  <testcase name="webLoginCarLoan" classname="com.CarLoan.PracticeThree" time="0.001"/>
+  <testcase name="apiLoginCarLoan" classname="com.CarLoan.PracticeThree" time="0">
+    <skipped message="Method PracticeThree.apiLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace] depends on not successfully finished methods"/>
+    <system-out><![CDATA[
+T E S T  L I S T E N E R : T E S T  IS  S U C E S S : webLoginCarLoan
+
+  afterMethodCarLoan excuted after every car loan test methods
+]]></system-out>
+  </testcase>
+</testsuite>

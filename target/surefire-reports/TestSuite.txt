@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 0.439 s <<< FAILURE! - in TestSuite
+mobileLoginCarLoan(com.CarLoan.PracticeThree)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.CarLoan.PracticeThree.mobileLoginCarLoan(PracticeThree.java:27)
+
+smokeTestCarLoan(com.CarLoan.PracticeThree)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.CarLoan.PracticeThree.smokeTestCarLoan(PracticeThree.java:62)
+
