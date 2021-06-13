@@ -3,6 +3,7 @@ package com.CarLoan;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -55,5 +56,27 @@ public class PracticeThree {
 	public void smokeTestCarLoan()
 	{
 		System.out.println(" smokeTestCarLoan :CarLoan:PracticeThree:SmokeGroup");
+	}
+	
+	@Test(dataProvider = "TestData")
+	public void CarLoanDataProviderTest(String userName,String password)
+	{
+		System.out.println("Username :"+userName +"| Password :"+password);
+	}
+	
+	@DataProvider(name="TestData")
+	public Object testData()
+	{
+		Object data[][]=new Object[3][2];
+		
+		data[0][0]="username1";
+		data[0][1]="password1";
+		
+		data[1][0]="username2";
+		data[1][1]="password2";
+		
+		data[2][0]="username3";
+		data[2][1]="password3";
+		return data;
 	}
 }
