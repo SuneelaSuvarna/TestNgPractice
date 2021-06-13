@@ -3,6 +3,7 @@
 <suite name="Loan Department">
 
 	<test thread-count="5" name="PersonalLoan">
+
 		<classes>
 			<class name="com.PersonalLoan.PracticeOne"/>
 			<class name="com.PersonalLoan.PracticeTwo" />

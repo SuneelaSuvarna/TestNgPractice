@@ -32,7 +32,7 @@ public class PracticeThree {
 		System.out.println("   mobileLogoutCarLoan");
 	}
 
-	@Test
+	@Test(dependsOnMethods ={"mobileLoginCarLoan"})
 	public void apiLoginCarLoan() {
 		System.out.println("   apiLoginCarLoan");
 	}

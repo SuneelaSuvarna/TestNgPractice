@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class PracticeFour {
 
-	@Test
+	@Test(enabled = false)
 	public void webLoginHomeLoan()
 	{
 		System.out.println("   webLoginHomeLoan");
