@@ -23,6 +23,12 @@ public class PracticeTwo {
 		System.out.println(" afterSuiteTest:PersonalLoan:PracticeTwo");
 	}
 	
+	@Test(groups = {"Smoke"})
+	public void smokeTestPLoan2()
+	{
+		System.out.println(" smokeTestPLoan2 :PersonalLoan:PracticeOne:SmokeGroup");
+	}
+	
 	
 
 }

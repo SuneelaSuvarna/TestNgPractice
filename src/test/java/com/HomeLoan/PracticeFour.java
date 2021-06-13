@@ -20,4 +20,10 @@ public class PracticeFour {
 		System.out.println("   apiLoginHomeLoan");
 	}
 	
+	@Test(groups = {"Smoke"})
+	public void smokeTestHomeLoan()
+	{
+		System.out.println(" smokeTestHomeLoan :HomeLoan:PracticeFour:SmokeGroup");
+	}
+	
 }

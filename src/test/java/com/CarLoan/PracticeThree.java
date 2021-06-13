@@ -47,4 +47,9 @@ public class PracticeThree {
 		System.out.println("  afterMethodCarLoan excuted after every car loan test methods");
 	}
 
+	@Test(groups = {"Smoke"})
+	public void smokeTestCarLoan()
+	{
+		System.out.println(" smokeTestCarLoan :CarLoan:PracticeThree:SmokeGroup");
+	}
 }

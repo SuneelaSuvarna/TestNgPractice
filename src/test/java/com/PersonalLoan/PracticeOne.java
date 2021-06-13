@@ -31,4 +31,10 @@ public class PracticeOne {
 		System.out.println(" After Test :PersonalLoan:PracticeOne:afterTestPLoan");
 	}
 	
+	@Test(groups = {"Smoke"})
+	public void smokeTestPLoan1()
+	{
+		System.out.println(" smokeTestPLoan1 :PersonalLoan:PracticeOne:SmokeGroup");
+	}
+	
 }
