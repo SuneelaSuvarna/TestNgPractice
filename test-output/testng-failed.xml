@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Loan Department]">
+  <parameter name="Type" value="G L O B A L"/>
+  <parameter name="URL" value="www.globalapi.com"/>
+  <listeners>
+    <listener class-name="com.listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Car Loan(failed)">
+    <parameter name="URL" value="www.carapi.com"/>
+    <classes>
+      <class name="com.CarLoan.PracticeThree">
+        <methods>
+          <include name="mobileLoginCarLoan"/>
+          <include name="afterMethodCarLoan"/>
+          <include name="beforeMethodCarLoan"/>
+          <include name="beforeClassTest"/>
+          <include name="apiLoginCarLoan"/>
+          <include name="smokeTestCarLoan"/>
+        </methods>
+      </class> <!-- com.CarLoan.PracticeThree -->
+    </classes>
+  </test> <!-- Car Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->

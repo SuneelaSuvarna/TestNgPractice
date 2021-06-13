@@ -1,5 +1,7 @@
 package com.CarLoan;
 
+import static org.testng.Assert.assertTrue;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -22,6 +24,7 @@ public class PracticeThree {
 	@Test
 	public void mobileLoginCarLoan() {
 		System.out.println("   mobileLoginCarLoan");
+		assertTrue(false);
 	}
 
 	@Test(timeOut = 4000)
@@ -56,6 +59,7 @@ public class PracticeThree {
 	public void smokeTestCarLoan()
 	{
 		System.out.println(" smokeTestCarLoan :CarLoan:PracticeThree:SmokeGroup");
+		assertTrue(false);
 	}
 	
 	@Test(dataProvider = "TestData")
@@ -77,6 +81,7 @@ public class PracticeThree {
 		
 		data[2][0]="username3";
 		data[2][1]="password3";
+		
 		return data;
 	}
 }
