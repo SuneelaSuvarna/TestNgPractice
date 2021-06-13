@@ -1,24 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="2" ignored="0" total="9" passed="6">
+<testng-results skipped="1" failed="2" ignored="1" total="18" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Loan Department" duration-ms="61" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+  <suite name="Loan Department" duration-ms="86" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
     <groups>
       <group name="Smoke">
-        <method signature="PracticeThree.smokeTestCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="smokeTestCarLoan" class="com.CarLoan.PracticeThree"/>
+        <method signature="PracticeFour.smokeTestHomeLoan()[pri:0, instance:com.HomeLoan.PracticeFour@2bbf4b8b]" name="smokeTestHomeLoan" class="com.HomeLoan.PracticeFour"/>
+        <method signature="PracticeOne.smokeTestPLoan1()[pri:0, instance:com.PersonalLoan.PracticeOne@305fd85d]" name="smokeTestPLoan1" class="com.PersonalLoan.PracticeOne"/>
+        <method signature="PracticeTwo.smokeTestPLoan2()[pri:0, instance:com.PersonalLoan.PracticeTwo@ea1a8d5]" name="smokeTestPLoan2" class="com.PersonalLoan.PracticeTwo"/>
+        <method signature="PracticeThree.smokeTestCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="smokeTestCarLoan" class="com.CarLoan.PracticeThree"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="Car Loan" duration-ms="61" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
-      <class name="com.CarLoan.PracticeThree">
-        <test-method status="PASS" signature="beforeClassTest()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="beforeClassTest" is-config="true" duration-ms="5" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+    <test name="PersonalLoan" duration-ms="38" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+      <class name="com.HomeLoan.PracticeFour">
+        <test-method status="PASS" signature="apiLoginHomeLoan()[pri:0, instance:com.HomeLoan.PracticeFour@2bbf4b8b]" name="apiLoginHomeLoan" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClassTest -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        </test-method> <!-- apiLoginHomeLoan -->
+        <test-method status="PASS" signature="mobileLoginHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:com.HomeLoan.PracticeFour@2bbf4b8b]" name="mobileLoginHomeLoan" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.globalapi.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[G L O B A L]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan -->
+        <test-method status="PASS" signature="smokeTestHomeLoan()[pri:0, instance:com.HomeLoan.PracticeFour@2bbf4b8b]" name="smokeTestHomeLoan" duration-ms="1" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTestHomeLoan -->
+      </class> <!-- com.HomeLoan.PracticeFour -->
+      <class name="com.PersonalLoan.PracticeOne">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:com.PersonalLoan.PracticeOne@305fd85d]" name="Demo" duration-ms="4" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:com.PersonalLoan.PracticeOne@305fd85d]" name="secondTest" duration-ms="1" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method status="PASS" signature="smokeTestPLoan1()[pri:0, instance:com.PersonalLoan.PracticeOne@305fd85d]" name="smokeTestPLoan1" duration-ms="1" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTestPLoan1 -->
+        <test-method status="PASS" signature="afterTestPLoan()[pri:0, instance:com.PersonalLoan.PracticeOne@305fd85d]" name="afterTestPLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestPLoan -->
+      </class> <!-- com.PersonalLoan.PracticeOne -->
+      <class name="com.PersonalLoan.PracticeTwo">
+        <test-method status="PASS" signature="beforeTestPLoan()[pri:0, instance:com.PersonalLoan.PracticeTwo@ea1a8d5]" name="beforeTestPLoan" is-config="true" duration-ms="1" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestPLoan -->
+        <test-method status="PASS" signature="pLoan()[pri:0, instance:com.PersonalLoan.PracticeTwo@ea1a8d5]" name="pLoan" duration-ms="1" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pLoan -->
+        <test-method status="PASS" signature="smokeTestPLoan2()[pri:0, instance:com.PersonalLoan.PracticeTwo@ea1a8d5]" name="smokeTestPLoan2" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTestPLoan2 -->
+      </class> <!-- com.PersonalLoan.PracticeTwo -->
+    </test> <!-- PersonalLoan -->
+    <test name="Car Loan" duration-ms="28" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+      <class name="com.PersonalLoan.PracticeOne">
+        <test-method status="PASS" signature="beforeSuiteTest()[pri:0, instance:com.PersonalLoan.PracticeOne@305fd85d]" name="beforeSuiteTest" is-config="true" duration-ms="6" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteTest -->
+      </class> <!-- com.PersonalLoan.PracticeOne -->
+      <class name="com.CarLoan.PracticeThree">
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="FAIL" signature="mobileLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="mobileLoginCarLoan" duration-ms="6" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="beforeClassTest()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="beforeClassTest" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method status="FAIL" signature="mobileLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="mobileLoginCarLoan" duration-ms="2" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -64,15 +133,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileLoginCarLoan -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="afterMethodCarLoan" is-config="true" duration-ms="1" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="PASS" signature="mobileLogoutCarLoan(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="mobileLogoutCarLoan" duration-ms="1" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="mobileLogoutCarLoan(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="mobileLogoutCarLoan" duration-ms="1" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <params>
             <param index="0">
               <value>
@@ -88,27 +153,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileLogoutCarLoan -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="beforeMethodCarLoan" is-config="true" duration-ms="1" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="PASS" signature="mobileNavigationCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="mobileNavigationCarLoan" duration-ms="4" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodCarLoan -->
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodCarLoan -->
+        <test-method status="PASS" signature="mobileNavigationCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="mobileNavigationCarLoan" duration-ms="6" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileNavigationCarLoan -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="beforeMethodCarLoan" is-config="true" duration-ms="1" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="FAIL" signature="smokeTestCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="smokeTestCarLoan" duration-ms="0" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodCarLoan -->
+        <test-method status="FAIL" signature="smokeTestCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="smokeTestCarLoan" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -154,15 +223,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokeTestCarLoan -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="beforeMethodCarLoan" is-config="true" duration-ms="1" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="PASS" signature="CarLoanDataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="CarLoanDataProviderTest" duration-ms="0" started-at="2021-06-13T21:58:38 IST" data-provider="TestData" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="CarLoanDataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="CarLoanDataProviderTest" duration-ms="1" started-at="2021-06-13T22:13:42 IST" data-provider="TestData" finished-at="2021-06-13T22:13:42 IST">
           <params>
             <param index="0">
               <value>
@@ -178,11 +243,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarLoanDataProviderTest -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="afterMethodCarLoan" is-config="true" duration-ms="1" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodCarLoan -->
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="PASS" signature="CarLoanDataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="CarLoanDataProviderTest" duration-ms="1" started-at="2021-06-13T21:58:38 IST" data-provider="TestData" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="CarLoanDataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="CarLoanDataProviderTest" duration-ms="1" started-at="2021-06-13T22:13:42 IST" data-provider="TestData" finished-at="2021-06-13T22:13:42 IST">
           <params>
             <param index="0">
               <value>
@@ -198,15 +267,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarLoanDataProviderTest -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="PASS" signature="CarLoanDataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="CarLoanDataProviderTest" duration-ms="0" started-at="2021-06-13T21:58:38 IST" data-provider="TestData" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="beforeMethodCarLoan" is-config="true" duration-ms="1" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodCarLoan -->
+        <test-method status="PASS" signature="CarLoanDataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="CarLoanDataProviderTest" duration-ms="0" started-at="2021-06-13T22:13:42 IST" data-provider="TestData" finished-at="2021-06-13T22:13:42 IST">
           <params>
             <param index="0">
               <value>
@@ -222,33 +295,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarLoanDataProviderTest -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="PASS" signature="webLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="webLoginCarLoan" duration-ms="0" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="webLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="webLoginCarLoan" duration-ms="1" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webLoginCarLoan -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T21:58:38 IST" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="SKIP" signature="apiLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd]" name="apiLoginCarLoan" duration-ms="0" started-at="2021-06-13T21:58:38 IST" depends-on-methods="com.CarLoan.PracticeThree.mobileLoginCarLoan" finished-at="2021-06-13T21:58:38 IST">
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodCarLoan -->
+        <test-method status="SKIP" signature="apiLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a]" name="apiLoginCarLoan" duration-ms="0" started-at="2021-06-13T22:13:42 IST" depends-on-methods="com.CarLoan.PracticeThree.mobileLoginCarLoan" finished-at="2021-06-13T22:13:42 IST">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method PracticeThree.apiLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd] depends on not successfully finished methods]]>
+              <![CDATA[Method PracticeThree.apiLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method PracticeThree.apiLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@6ee52dcd] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method PracticeThree.apiLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@1500955a] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -275,6 +344,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- apiLoginCarLoan -->
       </class> <!-- com.CarLoan.PracticeThree -->
+      <class name="com.PersonalLoan.PracticeTwo">
+        <test-method status="PASS" signature="afterSuiteTest()[pri:0, instance:com.PersonalLoan.PracticeTwo@ea1a8d5]" name="afterSuiteTest" is-config="true" duration-ms="0" started-at="2021-06-13T22:13:42 IST" finished-at="2021-06-13T22:13:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteTest -->
+      </class> <!-- com.PersonalLoan.PracticeTwo -->
     </test> <!-- Car Loan -->
   </suite> <!-- Loan Department -->
 </testng-results>

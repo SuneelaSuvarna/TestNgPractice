@@ -30,6 +30,7 @@ public class TestListeners implements ITestListener{
 	public void onTestSkipped(ITestResult result) {
 		System.out.println("");
 		System.out.println("T E S T  L I S T E N E R : T E S T  IS  S K I P P E D : "+ result.getName());
+		
 		System.out.println("");
 	}
 

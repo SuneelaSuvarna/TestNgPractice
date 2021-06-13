@@ -7,6 +7,15 @@
 	<parameter name="URL" value="www.globalapi.com" />
 	<parameter name="Type" value="G L O B A L" />
 
+	<test thread-count="5" name="PersonalLoan">
+		<classes>
+			<class name="com.PersonalLoan.PracticeOne" />
+			<class name="com.PersonalLoan.PracticeTwo" />
+			<class name="com.HomeLoan.PracticeFour" />
+		</classes>
+
+	</test>
+
 	<test thread-count="5" name="Car Loan">
 		<parameter name="URL" value="www.carapi.com" />
 		<classes>
