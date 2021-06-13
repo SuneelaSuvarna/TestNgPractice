@@ -15,8 +15,15 @@ public class DataBaseTest {
 		Connection con=DriverManager.getConnection("url", "username", "password");
 	Statement s=con.createStatement();
 	ResultSet rs=s.executeQuery("select * from temp;");
-	String username=rs.getString("UserName");
-	String password=rs.getString("Password");
+	
+	while(rs.next())
+	{
+		String username=rs.getString("UserName");
+		System.out.println(username);
+		String password=rs.getString("Password");
+		System.out.println(password);
+	}
+
 
 	}
 
