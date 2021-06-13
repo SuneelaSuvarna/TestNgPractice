@@ -1,93 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="2" ignored="1" total="18" passed="14">
+<testng-results skipped="1" failed="4" ignored="1" total="18" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Loan Department" duration-ms="66" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+  <suite name="Loan Department" duration-ms="70" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
     <groups>
       <group name="Smoke">
-        <method signature="PracticeFour.smokeTestHomeLoan()[pri:0, instance:com.HomeLoan.PracticeFour@6d4b1c02]" name="smokeTestHomeLoan" class="com.HomeLoan.PracticeFour"/>
-        <method signature="PracticeOne.smokeTestPLoan1()[pri:0, instance:com.PersonalLoan.PracticeOne@1bce4f0a]" name="smokeTestPLoan1" class="com.PersonalLoan.PracticeOne"/>
-        <method signature="PracticeTwo.smokeTestPLoan2()[pri:0, instance:com.PersonalLoan.PracticeTwo@6a41eaa2]" name="smokeTestPLoan2" class="com.PersonalLoan.PracticeTwo"/>
-        <method signature="PracticeThree.smokeTestCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="smokeTestCarLoan" class="com.CarLoan.PracticeThree"/>
+        <method signature="PracticeFour.smokeTestHomeLoan()[pri:0, instance:com.HomeLoan.PracticeFour@685cb137]" name="smokeTestHomeLoan" class="com.HomeLoan.PracticeFour"/>
+        <method signature="PracticeOne.smokeTestPLoan1()[pri:0, instance:com.PersonalLoan.PracticeOne@1e88b3c]" name="smokeTestPLoan1" class="com.PersonalLoan.PracticeOne"/>
+        <method signature="PracticeTwo.smokeTestPLoan2()[pri:0, instance:com.PersonalLoan.PracticeTwo@604ed9f0]" name="smokeTestPLoan2" class="com.PersonalLoan.PracticeTwo"/>
+        <method signature="PracticeThree.smokeTestCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="smokeTestCarLoan" class="com.CarLoan.PracticeThree"/>
       </group> <!-- Smoke -->
     </groups>
-    <test name="PersonalLoan" duration-ms="25" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
-      <class name="com.HomeLoan.PracticeFour">
-        <test-method status="PASS" signature="apiLoginHomeLoan()[pri:0, instance:com.HomeLoan.PracticeFour@6d4b1c02]" name="apiLoginHomeLoan" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- apiLoginHomeLoan -->
-        <test-method status="PASS" signature="mobileLoginHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:com.HomeLoan.PracticeFour@6d4b1c02]" name="mobileLoginHomeLoan" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[www.globalapi.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[G L O B A L]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mobileLoginHomeLoan -->
-        <test-method status="PASS" signature="smokeTestHomeLoan()[pri:0, instance:com.HomeLoan.PracticeFour@6d4b1c02]" name="smokeTestHomeLoan" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- smokeTestHomeLoan -->
-      </class> <!-- com.HomeLoan.PracticeFour -->
+    <test name="PersonalLoan" duration-ms="28" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
       <class name="com.PersonalLoan.PracticeOne">
-        <test-method status="PASS" signature="Demo()[pri:0, instance:com.PersonalLoan.PracticeOne@1bce4f0a]" name="Demo" duration-ms="1" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:com.PersonalLoan.PracticeOne@1e88b3c]" name="Demo" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
-        <test-method status="PASS" signature="secondTest()[pri:0, instance:com.PersonalLoan.PracticeOne@1bce4f0a]" name="secondTest" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:com.PersonalLoan.PracticeOne@1e88b3c]" name="secondTest" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTest -->
-        <test-method status="PASS" signature="smokeTestPLoan1()[pri:0, instance:com.PersonalLoan.PracticeOne@1bce4f0a]" name="smokeTestPLoan1" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="smokeTestPLoan1()[pri:0, instance:com.PersonalLoan.PracticeOne@1e88b3c]" name="smokeTestPLoan1" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokeTestPLoan1 -->
-        <test-method status="PASS" signature="afterTestPLoan()[pri:0, instance:com.PersonalLoan.PracticeOne@1bce4f0a]" name="afterTestPLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="afterTestPLoan()[pri:0, instance:com.PersonalLoan.PracticeOne@1e88b3c]" name="afterTestPLoan" is-config="true" duration-ms="1" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTestPLoan -->
       </class> <!-- com.PersonalLoan.PracticeOne -->
+      <class name="com.HomeLoan.PracticeFour">
+        <test-method status="PASS" signature="apiLoginHomeLoan()[pri:0, instance:com.HomeLoan.PracticeFour@685cb137]" name="apiLoginHomeLoan" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLoginHomeLoan -->
+        <test-method status="FAIL" signature="mobileLoginHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:com.HomeLoan.PracticeFour@685cb137]" name="mobileLoginHomeLoan" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method mobileLoginHomeLoan but has not been marked @Optional or defined
+in /Volumes/Development/Automation/TestNgPractice/testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method mobileLoginHomeLoan but has not been marked @Optional or defined
+in /Volumes/Development/Automation/TestNgPractice/testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan -->
+        <test-method status="PASS" signature="smokeTestHomeLoan()[pri:0, instance:com.HomeLoan.PracticeFour@685cb137]" name="smokeTestHomeLoan" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smokeTestHomeLoan -->
+      </class> <!-- com.HomeLoan.PracticeFour -->
       <class name="com.PersonalLoan.PracticeTwo">
-        <test-method status="PASS" signature="beforeTestPLoan()[pri:0, instance:com.PersonalLoan.PracticeTwo@6a41eaa2]" name="beforeTestPLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="beforeTestPLoan()[pri:0, instance:com.PersonalLoan.PracticeTwo@604ed9f0]" name="beforeTestPLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTestPLoan -->
-        <test-method status="PASS" signature="pLoan()[pri:0, instance:com.PersonalLoan.PracticeTwo@6a41eaa2]" name="pLoan" duration-ms="1" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pLoan -->
-        <test-method status="PASS" signature="smokeTestPLoan2()[pri:0, instance:com.PersonalLoan.PracticeTwo@6a41eaa2]" name="smokeTestPLoan2" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="smokeTestPLoan2()[pri:0, instance:com.PersonalLoan.PracticeTwo@604ed9f0]" name="smokeTestPLoan2" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokeTestPLoan2 -->
+        <test-method status="PASS" signature="pLoan()[pri:0, instance:com.PersonalLoan.PracticeTwo@604ed9f0]" name="pLoan" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pLoan -->
       </class> <!-- com.PersonalLoan.PracticeTwo -->
     </test> <!-- PersonalLoan -->
-    <test name="Car Loan" duration-ms="18" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+    <test name="Car Loan" duration-ms="17" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
       <class name="com.PersonalLoan.PracticeOne">
-        <test-method status="PASS" signature="beforeSuiteTest()[pri:0, instance:com.PersonalLoan.PracticeOne@1bce4f0a]" name="beforeSuiteTest" is-config="true" duration-ms="4" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="beforeSuiteTest()[pri:0, instance:com.PersonalLoan.PracticeOne@1e88b3c]" name="beforeSuiteTest" is-config="true" duration-ms="5" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuiteTest -->
       </class> <!-- com.PersonalLoan.PracticeOne -->
       <class name="com.CarLoan.PracticeThree">
-        <test-method status="PASS" signature="beforeClassTest()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="beforeClassTest" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClassTest -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="FAIL" signature="mobileLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="mobileLoginCarLoan" duration-ms="2" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="beforeClassTest()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="beforeClassTest" is-config="true" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method status="FAIL" signature="mobileLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="mobileLoginCarLoan" duration-ms="2" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -137,47 +169,71 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileLoginCarLoan -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="PASS" signature="mobileLogoutCarLoan(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="mobileLogoutCarLoan" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[www.carapi.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[G L O B A L]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="beforeMethodCarLoan" is-config="true" duration-ms="1" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodCarLoan -->
+        <test-method status="FAIL" signature="mobileLogoutCarLoan(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="mobileLogoutCarLoan" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method mobileLogoutCarLoan but has not been marked @Optional or defined
+in /Volumes/Development/Automation/TestNgPractice/testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method mobileLogoutCarLoan but has not been marked @Optional or defined
+in /Volumes/Development/Automation/TestNgPractice/testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileLogoutCarLoan -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="PASS" signature="mobileNavigationCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="mobileNavigationCarLoan" duration-ms="1" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="mobileNavigationCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="mobileNavigationCarLoan" duration-ms="1" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mobileNavigationCarLoan -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="afterMethodCarLoan" is-config="true" duration-ms="1" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="FAIL" signature="smokeTestCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="smokeTestCarLoan" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="FAIL" signature="smokeTestCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="smokeTestCarLoan" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -227,19 +283,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- smokeTestCarLoan -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="afterMethodCarLoan" is-config="true" duration-ms="1" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="PASS" signature="CarLoanDataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="CarLoanDataProviderTest" duration-ms="0" started-at="2021-06-13T22:20:38 IST" data-provider="TestData" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="CarLoanDataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="CarLoanDataProviderTest" duration-ms="0" started-at="2021-06-13T22:36:35 IST" data-provider="TestData" finished-at="2021-06-13T22:36:35 IST">
           <params>
             <param index="0">
               <value>
@@ -255,23 +311,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarLoanDataProviderTest -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="beforeMethodCarLoan" is-config="true" duration-ms="1" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="beforeMethodCarLoan" is-config="true" duration-ms="1" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="PASS" signature="CarLoanDataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="CarLoanDataProviderTest" duration-ms="0" started-at="2021-06-13T22:20:38 IST" data-provider="TestData" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="CarLoanDataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="CarLoanDataProviderTest" duration-ms="0" started-at="2021-06-13T22:36:35 IST" data-provider="TestData" finished-at="2021-06-13T22:36:35 IST">
           <params>
             <param index="0">
               <value>
@@ -287,7 +339,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarLoanDataProviderTest -->
-        <test-method status="PASS" signature="CarLoanDataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="CarLoanDataProviderTest" duration-ms="0" started-at="2021-06-13T22:20:38 IST" data-provider="TestData" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="CarLoanDataProviderTest(java.lang.String,java.lang.String)[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="CarLoanDataProviderTest" duration-ms="0" started-at="2021-06-13T22:36:35 IST" data-provider="TestData" finished-at="2021-06-13T22:36:35 IST">
           <params>
             <param index="0">
               <value>
@@ -303,29 +355,33 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CarLoanDataProviderTest -->
-        <test-method status="PASS" signature="webLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="webLoginCarLoan" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodCarLoan -->
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodCarLoan -->
+        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="afterMethodCarLoan" is-config="true" duration-ms="1" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodCarLoan -->
+        <test-method status="PASS" signature="webLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="webLoginCarLoan" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webLoginCarLoan -->
-        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="beforeMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="beforeMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethodCarLoan -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="PASS" signature="afterMethodCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="afterMethodCarLoan" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethodCarLoan -->
-        <test-method status="SKIP" signature="apiLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace]" name="apiLoginCarLoan" duration-ms="0" started-at="2021-06-13T22:20:38 IST" depends-on-methods="com.CarLoan.PracticeThree.mobileLoginCarLoan" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="SKIP" signature="apiLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292]" name="apiLoginCarLoan" duration-ms="0" started-at="2021-06-13T22:36:35 IST" depends-on-methods="com.CarLoan.PracticeThree.mobileLoginCarLoan" finished-at="2021-06-13T22:36:35 IST">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method PracticeThree.apiLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace] depends on not successfully finished methods]]>
+              <![CDATA[Method PracticeThree.apiLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method PracticeThree.apiLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@3f49dace] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method PracticeThree.apiLoginCarLoan()[pri:0, instance:com.CarLoan.PracticeThree@e45f292] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -357,7 +413,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- apiLoginCarLoan -->
       </class> <!-- com.CarLoan.PracticeThree -->
       <class name="com.PersonalLoan.PracticeTwo">
-        <test-method status="PASS" signature="afterSuiteTest()[pri:0, instance:com.PersonalLoan.PracticeTwo@6a41eaa2]" name="afterSuiteTest" is-config="true" duration-ms="0" started-at="2021-06-13T22:20:38 IST" finished-at="2021-06-13T22:20:38 IST">
+        <test-method status="PASS" signature="afterSuiteTest()[pri:0, instance:com.PersonalLoan.PracticeTwo@604ed9f0]" name="afterSuiteTest" is-config="true" duration-ms="0" started-at="2021-06-13T22:36:35 IST" finished-at="2021-06-13T22:36:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuiteTest -->
